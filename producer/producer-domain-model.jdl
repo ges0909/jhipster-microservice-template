@@ -1,0 +1,3 @@
+// usage: jhipster import-jdl producer-domain-model.jdl
+
+entity Producer {}

@@ -1,0 +1,15 @@
+plugins {
+  id 'java'
+}
+
+defaultTasks 'clean', 'compileJava'
+
+allprojects {
+}
+
+subprojects {
+  version = '0.1'
+}
+
+project(':consumer')
+project(':producer')

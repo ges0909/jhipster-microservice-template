@@ -1,0 +1,3 @@
+rootProject.name = 'jhipster-microservice-template'
+include 'consumer'
+include 'producer'

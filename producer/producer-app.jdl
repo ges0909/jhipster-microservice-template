@@ -1,0 +1,13 @@
+// usage: jhipster import-jdl producer-app.jdl
+
+application {
+  config {
+    applicationType microservice,
+    baseName producerApp,
+    packageName de.infinitservices.forge.serviceplatform.producer,
+    enableTranslation false,
+    serverPort 8081,
+    buildTool gradle,
+    skipClient true
+  }
+}

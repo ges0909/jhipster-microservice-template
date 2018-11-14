@@ -1,0 +1,18 @@
+// usage: jhipster import-jdl consumer-app.jdl
+
+application {
+  config {
+    applicationType microservice,
+    baseName consumerApp,
+    packageName de.infinitservices.forge.serviceplatform.consumer,
+    databaseType no,
+    devDatabaseType no,
+    prodDatabaseType no,
+    cacheProvider no,
+    enableHibernateCache false
+    enableTranslation false,
+    serverPort 8082,
+    buildTool gradle,
+    skipClient true
+  }
+}
